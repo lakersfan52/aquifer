@@ -2,7 +2,7 @@
 ![](icon/icon.svg)
 # aquifer
 
-Automated Qa: UI tests using the wonderFul wEbdRiverio
+Automated Qa: UI tests For wEbdRiverio
 
 
 ## Installation
