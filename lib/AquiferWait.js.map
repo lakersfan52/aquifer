@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/AquiferWait.js"],"names":["AquiferWait","timeoutMillis","browser","pause"],"mappings":";;;;;;;;;;;;;AAAA;IAGaA,W;;;;;;;;;0BACEC,a,EAAe;AAC1BC,MAAAA,OAAO,CAACC,KAAR,CAAcF,aAAd;AACD","sourcesContent":["// @ts-check\n\n\nexport class AquiferWait {\n  static sleep(timeoutMillis) {\n    browser.pause(timeoutMillis);\n  }\n}\n"],"file":"AquiferWait.js"}
