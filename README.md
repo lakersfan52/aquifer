@@ -22,7 +22,6 @@ eg
 ``npm start -- --s login.test --n 10 --noPics``
 
 
-
 ## If you don't want command line arguments in your shell history
 
 You can save those options to ``args.txt`` in the project root directory in the same format (``--key1 <value1> --key2 <value2>``).
