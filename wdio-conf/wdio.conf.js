@@ -1,4 +1,3 @@
-// @ts-check
 /* ************************************************************************************************************ */
 /* **** This is the WebdriverIO configuration file.  It's not using ES6 cos I couldn't figure out how. ******** */
 /* **** It's accessing external local files using the global object since it can't run ES6 code. -Stuart ****** */
@@ -15,6 +14,22 @@ const h = require('./helper.js');
 
 h.initializeDirs();
 h.setGlobals();
+
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
+console.log('hellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooohellooooooo')
 
 exports.config = {
   //
