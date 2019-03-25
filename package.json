@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "npm run lint && d=$(date '+%Y%m%d') && t=$(date '+%l:%M:%S%p') && ./node_modules/.bin/wdio ./wdio-conf/wdio.conf.js --runDate \"$d\" --runTime \"$t\" --suite dev",
-    "quick": "                d=$(date '+%Y%m%d') && t=$(date '+%l:%M:%S%p') && ./node_modules/.bin/wdio  ./wdio-conf/wdio.conf.js --runDate \"$d\" --runTime \"$t\" --suite dev",
+    "quick": "                d=$(date '+%Y%m%d') && t=$(date '+%l:%M:%S%p') && ./node_modules/.bin/wdio ./wdio-conf/wdio.conf.js --runDate \"$d\" --runTime \"$t\" --suite dev",
     "start_docker": "npm run lint && docker rm -f aquifer || true && docker run -d -p 4444:4444 --name aquifer --shm-size=2g selenium/standalone-chrome:3.141.59-europium && sleep .5                                                  && d=$(date '+%Y%m%d') && t=$(date '+%l:%M:%S%p') && ./node_modules/.bin/wdio  /wdio-conf/wdio.conf.js --runDate \"$d\" --runTime \"$t\" --suite dev",
     "quick_docker": "                docker rm -f aquifer || true && docker run -d -p 4444:4444 --name aquifer --shm-size=2g selenium/standalone-chrome:3.141.59-europium && sleep 1                                                  && d=$(date '+%Y%m%d') && t=$(date '+%l:%M:%S%p') && ./node_modules/.bin/wdio  ./wdio-conf/wdio.conf.js --runDate \"$d\" --runTime \"$t\" --suite dev",
     "lint": "./node_modules/.bin/eslint --fix  \"src/**/*.js\"",
