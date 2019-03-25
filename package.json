@@ -47,7 +47,11 @@
     "eslint": "5.12.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-config-prettier": "3.4.0",
+<<<<<<< HEAD
+    "eslint-plugin-aquifer": "git+https://github.com/ai-wordsmith/eslint-plugin-aquifer.git",
+=======
     "eslint-plugin-aquifer": "git+https://github.com/aquiferHQ/eslint-plugin-aquifer.git",
+>>>>>>> 5ec322bc8183c7a796eeee55a3ee49ceaafa2251
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-prettier": "3.0.1",
     "eslint-plugin-webdriverio": "1.0.1",

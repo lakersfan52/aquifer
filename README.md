@@ -33,7 +33,7 @@ You can save those options to ``args.txt`` in the project root directory in the 
 
 ``--n`` number of times to run the given spec files.  this happens in parallel with max threads stipulated in wdio.conf.js
 
-``--noPics`` defaults to false - setting this to true prevents screenshots from being taken per logged action.  this will make the testing report less useful, but let the tests run faster
+``--noPics`` defaults to false - setting this to true prevents screenshots from being taken per logged action.  this will make the testing report less useful, but let the tests run faster 
 
 ``--notHeadless`` defaults to false - set this flag to force autobot to load a visible
 
